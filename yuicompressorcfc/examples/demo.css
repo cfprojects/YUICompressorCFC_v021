@@ -1,0 +1,308 @@
+/* panelists (actually layed out like the search results) */
+/* always */
+/* page specific */
+
+.ui-tabs-panel{border-top: solid 1px #cccccc !important}
+img { behavior: url(/asset/script/iepngfix.htc) !important } /* this allows IE6 to view clean png files */
+body{ behavior: url(/asset/script/cssHoverFix.htc) !important } /* this allows IE6 to use the :hover */
+body
+{
+	background-color: #3e3e3e;
+	font-size: 11px;
+	color: #333;
+}	
+
+/* MAIN BODY */
+/* MAIN BODY */
+/* MAIN BODY */
+
+.mainbody
+{
+	display: block;
+	width: 975px;
+	overflow: hidden;
+}
+.lftbody {float: left; width: 19px;  margin-bottom: -20000px; padding-bottom: 20000px; background-image: url('/asset/image/background/bg_left.gif');}
+.ctrbody {float: left; width: 767px; margin-bottom: -20000px; padding-bottom: 20000px; background: #FFFFFF; padding-top: 20px; padding-left: 8px; padding-right: 20px;} /* overflow: hidden;*/ /*padding: 21px 8px 21px 8px;*/
+.rhtbody {float: left; width: 158px; margin-bottom: -20000px; padding-bottom: 20000px; background-image: url('/asset/image/background/bg_right.gif'); padding-left: 3px; }
+
+/* sign up */
+.loginContainer{width: 760px; overflow: hidden;}
+.loginContainer2{width: 265px;}
+.loginTheForms{float: left; width: 300px;}
+.loginNotSignedUp{float: left; width: 300px;}
+/* left sign up */
+.titleLogin{margin-bottom: 30px;}
+.titleLoginTxt{margin-bottom: 30px;}
+.loginHR{height: 2px; width: 300px; background-image: url(/asset/image/background/hrBackground.gif); margin: 20px 0px;}
+.titleForgotYourPassword{margin-bottom: 20px;}
+.titleForgotYourPasswordTxt{margin-bottom: 20px;}
+.loginInput{border: solid 1px #ccc; width: 200px;margin-bottom: 17px;}
+.btnLogin{margin: 10px 0px;}
+.btnEmailNewPassword{margin: 10px 0px;}
+/* right sign up */
+.signupH1{font-size: 30px; color: #333333;}
+.signupBFTxt{font-size: 14px; margin-top: 10px; font-weight: bold;}
+.signupBFTxtRed{color: #cc0033;}
+.signupTNR{font-family: "Times New Roman", Times, serif; font-size: 16px; font-style: italic; margin-top: 10px; color: #666666;}
+.signupTNRBlue{font-family: "Times New Roman", Times, serif; font-size: 16px; font-style: italic; color: #003366; font-weight: bold; margin: 10px 0px;}
+.signupTNRBlue a{text-decoration: none;}
+
+
+.pageOn{float: left; padding: 3px;}
+.pageOff{float: left; padding: 3px;}
+.pagePipe{float: left;  padding: 3px; color: #006699; font-size: 11px;}
+.pageOn a{color: #3e3e3e; font-size: 11px;}
+.pageOff a{color: #006699; font-size: 11px;}
+
+/* Learn More */
+.learnMore{height: 529px; width: 766px; background-image: url(/asset/image/background/bgLearnMore.jpg); margin-bottom: 20px;}
+.learnMoreSignUpToday{position: relative; top: 54px; left: 687px; width: 75px; }
+.learnMore ul{position: relative; top: 104px; left: 500px; list-style: none;}
+.learnMore ul li {position: relative; margin-bottom: 73px;}
+.learnMoreLeft{float: left; width: 495px; padding-left: 30px;}
+.learnMoreLeft div{margin: 10px 0px;}
+.learnMoreRight{float: left; width: 230px; text-align: center;}
+.learnMoreRight div{margin: 10px 0px;}
+.learnMoreLeftBold{font-family: "Times New Roman", Times, serif; font-weight: bold; font-size: 18px;}
+.learnMoreLeftTxt{font-family: arial; font-size: 12px;}
+.learnMoreLeftRed{font-family: arial; color: #cc0033; font-weight: bold;}
+.learnMoreLeftRed a{color: #cc0033; font-size: 12px;}
+.learnMoreFooter{width: 753px; height: 70px; margin-bottom: 30px; background-image: url(/asset/image/background/bgLearnMoreFooter.gif); color: #FFFFFF;}
+.learnMoreFooterInterior{float: right;}
+.learnMoreFooter img{display: inline; margin: 0px 0px 0px 24px; }
+.learnMoreFooterImg{position: relative; top: -10px;}
+.learnMoreFooterTxt{position: relative; top: -27px; left: 12px;}
+.learnMoreNext{background-image: url(/asset/image/background/bgLearnMore2.jpg); height: 422px; width: 756px; }
+.learnMoreNextLt{float: left; position: relative; left: 50px; width: 208px;  top: 100px;}
+.learnMoreNextRt{float: left; position: relative; left: 265px; width: 257px; top: 100px;}
+.learnMoreNextLt span{color: #cc0033;}
+.learnMoreNextRt p{border-bottom: solid 1px #CCCCCC; padding-left: 32px; background-image: url(/asset/image/background/learnMoreArrow2.gif); background-position: top left; background-repeat:no-repeat;}
+.titleExtraPerks{margin-top: 20px; margin-bottom: 20px; margin-left: 80px;}
+.extraPerks{float: left; width: 250px; margin-left: 40px;}
+.learnMoreGlow{height: 287px; width: 414px; background-image: url(/asset/image/background/learnMoreGlow.jpg); float: left; margin-left: 20px;}
+.learnMoreGlow img{position: relative; top: 189px; left: 203px; height: 40px; width: 140px;}
+
+/* contact us */
+.titleContactUs{margin-bottom: 20px;}
+.contactTxt{float: left; width: 217px; margin: 0px 10px; line-height: 20px;}
+.contactTxt img{margin-bottom: 10px}
+.contactTxt a{text-decoration: none; color: #333333;}
+.contactUsSpacer{float: left; width: 17px;}
+.contactUsIcon{float: left; width: 183px; position: relative; top: -55px; left: 0px; margin: 0px 10px; padding-right: 34px;}
+.contactUsH2{margin-bottom: 40px; position: relative; top: 20px; left: 247px; font-size: 14px; font-weight: bold;}
+
+/* side bar stuff */
+#titleCommunity{height: 24px;}
+.titleCommunity{margin: 0px; padding: 0px; line-height: 0px; border-bottom: solid 3px #272727;}
+.newTips{width: 149px; padding-bottom: 5px; border-top: solid 3px #272727; font-weight: bold;}
+.newTipsInterior{background-color: #FFFFFF; width: 130px; margin-left: auto; margin-right: auto; border-bottom: solid 1px #a9a9a9; padding: 3px 0px;}
+.newsTipsTitle{background-color: #FFFFFF; margin-left: 5px; width: 130px; line-height: 11px; overflow: hidden;}
+.newsTipsTitle a:hover{text-decoration: underline;}
+.newsTipsTitleFirst{padding: 5px 5px 5px 5px; border-bottom: solid 1px #a9a9a9;}
+.newsTipsTitleMid  {padding: 5px 5px 5px 5px; border-bottom: solid 1px #a9a9a9;}
+.newsTipsTitleLast {padding: 5px 5px 5px 5px;}
+.newsTipsTitle a{color: #333333; text-decoration: none;}
+.newsTipsUser{font-size: 10px; line-height: 11px; font-weight: normal;}
+.newsTipsUser a{color: #cc0033; text-decoration: none;}
+
+.newMembers{background-image: url(/asset/image/background/bgNewMembers2.gif);     background-position: top left; background-repeat: no-repeat; border: solid 5px #cccccc; height: 109px; width: 139px; background-repeat: no-repeat; z-index: -1;}
+.topReviewers{background-image: url(/asset/image/background/bgTopReviewers2.gif); background-position: top left; background-repeat: no-repeat; border: solid 5px #cccccc; height: 111px; width: 139px; background-repeat: no-repeat;}
+.newMembersMember{float: left; position: relative; left: 4px; margin: 2px;}
+.topReviewersReviewer{float: left; position: relative; top: 20px; left: 4px; margin: 2px;}
+.newMembersReviewersDivider{height: 3px; background-color: #272727; width: 150px; line-height: 0px;}
+.newMembers1x1{width: 139px; height: 18px;}
+
+.rNavNewestBlogPosts{border-top: solid 3px #272727; width: 150px; font-weight: bold;}
+.blogOff {width: 149px; background-color: #ffffff; background-image: url(/asset/image/icon/iconBlogArrowTrans.gif);  background-position: right; background-repeat: no-repeat; font-family: Arial, Helvetica, sans-serif; font-size: 10px; color: #333333;}
+.blogOff2{width: 149px; background-color: #f5f4f0; background-image: url(/asset/image/icon/iconBlogArrowTrans.gif);  background-position: right; background-repeat: no-repeat; font-family: Arial, Helvetica, sans-serif; font-size: 10px; color: #333333;}
+.blogOn  {width: 149px; background-color: #cc0033; background-image: url(/asset/image/icon/iconBlogArrowCC0033.gif); background-position: right; background-repeat: no-repeat; font-family: Arial, Helvetica, sans-serif; font-size: 10px; color: #FFFFFF;}
+.blogOff a, .blogOff2 a{color: #333333; text-decoration: none;}
+.blogOn  a{color: #ffffff; text-decoration: none;}
+.blogOff div, .blogOff2 div, .blogOn div {width: 123px; }
+
+.blogTitleOff {background-color: #ffffff;}
+.blogTitleOff2{background-color: #f5f4f0;}
+.blogTitle{line-height: 11px; width: 139px; padding: 5px; overflow: hidden;}
+.blogTitle a{text-decoration: none; color: #333333;}
+.blogTitle a:hover{text-decoration: underline;}
+.blogTitleFirstOff	{ }
+.blogTitleFirstOn	{background-color: #cc0033; color: #FFFFFF;}	.blogTitleFirstOn a	{color: #FFFFFF;}
+.blogTitleMidOff	{ }
+.blogTitleMidOn		{background-color: #cc0033; color: #FFFFFF;}	.blogTitleMidOn a	{color: #FFFFFF;}
+.blogTitleLastOff	{ }
+.blogTitleLastOn	{background-color: #cc0033; color: #FFFFFF;}	.blogTitleLastOn a	{color: #FFFFFF;}
+.sidebarBlogUser{font-size: 10px; line-height: 11px; font-weight: normal;}
+.sidebarBlogUser a{color: #cc0033; text-decoration:none;}
+.sidebarBlogUser a:hover{text-decoration: underline;}
+.blogTitleFirstOn .sidebarBlogUser a, .blogTitleMidOn .sidebarBlogUser a, .blogTitleLastOn .sidebarBlogUser a{color: #FFFFFF;}
+.blogOn .sidebarBlogUser a{color: #FFFFFF;}
+.sidebarBlogShowMore{text-align: right; padding-right: 15px; cursor: pointer;}
+#blogMore{display: none;}
+
+.rNavMsgBoards{z-index: -1; border-top: solid 3px #272727;  width: 150px; }
+.rNavMsgBoardsTop{border-bottom: solid 1px #3a3a3a; z-index: -1;}
+.rNavMsgBoardsMid{border-bottom: solid 1px #3a3a3a; z-index: -1;}
+.rNavMsgBoardsBot{ z-index: -1;}
+.rNavMsgBoardsTop, .rNavMsgBoardsMid, .rNavMsgBoardsBot{width: 132px; z-index: -1;}
+.rNavMsgBoardsTop a, .rNavMsgBoardsMid a, .rNavMsgBoardsBot a{color: #FFFFFF; text-decoration: none; z-index: -1;}
+
+.newTopics{width: 150px;}
+.newTopicsTitle{background-color: #1e1e1e; width: 130px; margin: 0px 0px 0px 6px; color: #FFFFFF; line-height: 11px; overflow: hidden; font-weight: bold;}
+.newTopicsTitleFirst{padding: 0px 5px 5px 5px; border-bottom: solid 1px #3a3a3a;}
+.newTopicsTitleMid  {padding: 5px 5px 5px 5px; border-bottom: solid 1px #3a3a3a;}
+.newTopicsTitleLast {padding: 5px 5px 0px 5px;}
+.newTopicsUser{background-color: #1e1e1e;  width: 115px; color: #FFFFFF; font-size: 10px; line-height: 11px; font-weight: normal;}
+.newTopicsTitle a{text-decoration: none; color: #FFFFFF;}
+.newTopicsTitle a:hover{text-decoration: underline; color: #FFFFFF;}
+.newTopicsUser a{text-decoration: none; color: #cc0033;}
+.newTopicsUser a:hover{text-decoration: underline; color: #cc0033;}
+
+.rNavMostActiveTopics{z-index: -1; border-top: solid 3px #272727; width: 150px;}
+.mostActive{width: 150px;}
+.mostActiveTitle{width: 127px; background-color: #e9e9e9; margin: 0px 0px 0px 7px; line-height: 11px; overflow: hidden; font-weight: bold;}
+.mostActiveTitleFirst{padding: 0px 5px 5px 5px; border-bottom: solid 1px #575757;}
+.mostActiveTitleMid  {padding: 5px 5px 5px 5px; border-bottom: solid 1px #575757;}
+.mostActiveTitleLast {padding: 5px 5px 0px 5px;}
+.mostActiveTitleBorder{border-bottom: solid 1px #3a3a3a;}
+.mostActiveUser {width: 112px; background-color: #e9e9e9; font-size: 10px; line-height: 11px; font-weight: normal;}
+.mostActiveTitle a{text-decoration: none; color: #333333;}
+.mostActiveTitle a:hover{text-decoration: underline; color: #333333;}
+.mostActiveUser a{text-decoration: none; color: #cc0033;}
+.mostActiveUser a:hover{text-decoration: underline; color: #cc0033;}
+
+/* main home */
+.mainContent{margin-left: -25px; top: -20px; position: relative; z-index: 1;}
+.mainContentA{float: left; width: 631px;}
+.mainContentB{float: left; width: 300px;}
+.mainContent2{background-image: url(/asset/image/background/bgMainBottom.gif); height: 164px; width: 972px;}
+.mainContent2Avatars {float: right; width: 218px; position:relative; top: 10px;}
+.mainContent2Avatars img{float: left; margin: 10px;}
+
+/* header search menu */
+
+/*
+#userMenu{position: absolute; top: 104px; left: 833px; z-index: 100000; display: none;}
+#userMenu div{// background-image: url(/asset/image/background/header_dropdown_bg2120.gif); // background-color: #cc0033; width: 132px; height: 22px; position: relative; left: -7px; float: left; clear: left; cursor: pointer;}
+#userMenu div:hover{background-color: #000000;}
+#userMenu div img {position: relative; top: 4px;}
+#userMenu div a {color: #FFFFFF; text-decoration: none; position: relative; top: 2px; left: 5px;}
+.userMenuTop{border-top: solid 1px #990000;}
+.userMenuMid{border-left: solid 1px #990000; border-right: solid 1px #990000;}
+.userMenuBot{border-bottom: solid 1px #990000;}
+/*
+
+/* #userMenuUser {//background-image: url(/asset/image/background/header_dropdown_bg120.gif); // left: 631px; position: relative; z-index: 1000; top: 25px; width: 140px; height: 22px; float: left; color: #FFFFFF;}*/
+/* #userMenuUser img{position: absolute; top: 4px; left: 4px; margin-right: 6px;}*/
+
+/* terms of use */
+.titleTermsOfUse{margin-bottom: 20px;}
+.tosLink{color: #0000FF;}
+
+/* privacy policy */
+.titlePrivacyPolicy{margin-bottom: 20px;}
+
+/* faq */
+.titleBeautyFixFAQ{margin-bottom: 20px;}
+.faqQA{color: #cc0033; font-weight: bold;}
+
+/* home login form */
+.homeLoginForm{float:left; height:20px; left:444px; position:relative; top:53px; width:370px;}
+.homeLoginFormTxt{color: #cc0033; margin-right: 10px;}
+.homeInput{border: solid 1px #000000; color: #333333; font-size: 11px; margin-right: 10px; width: 100px;}
+.homeInputSubmit{position: relative; top: 3px;}
+
+.navSignUpToday{position: relative; top: 35px; left: 278px; float: left;}
+
+/* jquery charcounter */
+.charcounter{
+	margin-bottom:5px;
+}
+
+/* mediaPress */
+.titleMediaPress{margin-bottom: 20px;}
+.wwdBeauty{float: right; padding: 2px; border: solid 3px #CCCCCC; margin-left: 20px;}
+.mediaPressH1{font-size: 23pt; color: #333333; font-family: Arial, Helvetica, sans-serif; font-weight: bold;}
+.mediaPressRed{color: #cc0033;}
+
+/* survey */
+.surveyContainer{width: 750px;}
+
+/* my account */
+.titleMyAccount{margin: 20px 0px;}
+.myAccountContainer{width: 320px; position: relative; left: -200px; margin-bottom: 20px;}
+.myAccountContainerDivider{border-bottom: dotted 2px #CCCCCC; height: 2px; margin: 0px;}
+.selectMyAccount, .inputMyAccount, .inputMyAccountPhone{border: solid 1px #CCCCCC; margin: 2px 0px;}
+.inputMyAccount{width: 150px;}
+.inputMyAccountPhone{width: 30px;}
+.myAccountTerms{margin: 10px 0px 20px 0px;}
+
+/* manage your account /eccommerce.account/ */
+.titleManageYourAccount{margin: 20px 0px;}
+.manageBox{float: left; position: relative; background-color: #FFFFFF; height: 133px; width: 340px; margin-right: 10px; padding: 30px 10px 10px 10px; /*border: solid 1px #CCCCCC;*/ border-bottom: solid 5px #000000;}
+.manageBox:hover{background-color: #cc0033; color: #FFFFFF;}
+.manageBox ul {margin-top: -13px;}
+.manageBox:hover a{color: #FFFFFF;}
+.imgTitle{margin-bottom: 10px; }
+.manageBox1       .imgTitle{background-image: url(/asset/image/title/titleUpdateMyAccount.gif); height: 17px; width: 226px;}
+.manageBox1:hover .imgTitle{background-image: url(/asset/image/title/titleUpdateMyAccount2.gif); height: 17px; width: 226px;}
+.manageBox2       .imgTitle{background-image: url(/asset/image/title/titleTrackMyOrderCheckOrderHistory.gif); height: 37px; width: 268px;}
+.manageBox2:hover .imgTitle{background-image: url(/asset/image/title/titleTrackMyOrderCheckOrderHistory2.gif); height: 37px; width: 268px;}
+.manageBox3       .imgTitle{background-image: url(/asset/image/title/titleChangeCancelMembership.gif); height: 38px; width: 181px;}
+.manageBox3:hover .imgTitle{background-image: url(/asset/image/title/titleChangeCancelMembership2.gif); height: 38px; width: 181px;}
+.manageBox4       .imgTitle{background-image: url(/asset/image/title/titleGetHelp.gif); height: 16px; width: 98px;}
+.manageBox4:hover .imgTitle{background-image: url(/asset/image/title/titleGetHelp2.gif); height: 16px; width: 98px;}
+.btnManageGo{list-style: none; position: absolute; top: 20px; right: 5px;}
+
+/* manage your account Account Settings, Address Book */
+.btnBackToMyAccount{float: right;}
+.titleAccountSettings, .titleAddressBook{margin-bottom: 20px;}
+.btnAddNewAddress{float: right;}
+.btnEditLink, .btnDeleteLink{float: left;}
+
+/* panelists */
+#panelSWF{	margin: 0; padding: 0;	position: relative; left: 0px; top: 0px; width: 758px; height: 143px;}
+#thisSWF{	margin: 0; padding: 0;	position: relative; left: 0px; top: 0px; width: 758px; height: 143px;}
+#panelMembers{margin-top: 20px;}
+.meetTheBeautyfixPanel{margin: 0px 20px;}
+.meetTheBeautyfixPanelTxt{margin: 0px; font-size: 12px; margin: 20px;}
+.panelist{background-image: url(/asset/image/background/panelist.jpg); height: 221px; width: 187px; position: relative; float: left; margin: 0px 3px 20px 0px;}
+.panelist img{position: absolute; top: 18px; left: 18px;}
+.panelist ul {position: absolute; top: 158px; left: 18px; margin: 0px; padding: 0px;}
+.panelist ul li{list-style: none; position: relative;}
+.panelist ul li a{color: #cc0033;}
+
+/* help */
+.helpTitle{margin-bottom: 20px;}
+#helpQuestions{border-bottom: solid 1px #ccc; padding-bottom: 10px;}
+.helpQ{background-image: url(/asset/image/background/helpArrowQ.gif); background-position: left 4px; background-repeat: no-repeat; padding-left: 12px; list-style: none; margin-bottom: 5px;}
+.helpQ a{text-decoration: none;}
+.helpQA{background-image: url(/asset/image/background/helpArrowA.gif); background-position: left 4px; background-repeat: no-repeat; padding-left: 12px; list-style: none; margin-bottom: 5px; border-bottom: solid 1px #ccc; margin-bottom: 15px;}
+.helpQA p.helpQuestion{font-weight: bold; }
+.helpQA p.helpAnswer{position: relative; left: -15px;}
+#helpReturn{float: right;}
+
+/* subscription */
+.subscriptionSubject{margin-top: 5px; border: solid 1px #ccc;}
+.subscriptionInput{margin-top: 5px; border: solid 1px #ccc;}
+#subscriptionForm label{position: relative; top: 5px;}
+#subscriptionForm textarea{width: 100%; height: 200px; border: solid 1px #ccc;}
+
+/* Membership Terms */
+#titleMembershipTerms{margin-bottom: 20px;}
+
+/* Return Policy */
+#titleReturnPolicy{margin-bottom: 20px;}
+
+/* Ecommerce.Account:Orders */
+.ordersTotalOrders{font-size: 14px;}
+.ordersListContainer{width: 755px; overflow: hidden;}
+.ordersListBox{border-bottom: solid 2px #333333; background-color: #eeeeee;}
+.ordersListHeader{font-weight: bold;}
+.ordersListTxtRt{text-align: right;}
+.ordersListItem{cursor: pointer;}
+.orderDetailsContainer{width: 755px; overflow: hidden; display: none;}
+.ordersCloseOrder{color: #ff0000; cursor: pointer;}
+.ordersListRecord{height: 20px; line-height: 20px; clear: left;}
+.ordersListRecord:hover{background-color: #cc0033}
+
